@@ -1,0 +1,6 @@
+CREATE TABLE "ft_data" (
+	"uuid"	TEXT NOT NULL UNIQUE,
+	"slug"	TEXT NOT NULL UNIQUE,
+	"ttl"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("uuid","slug")
+);
